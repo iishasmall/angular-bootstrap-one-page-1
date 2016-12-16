@@ -1,0 +1,71 @@
+@import "imports/variables";
+@import "imports/bootstrap";
+@import "imports/animations";
+@import "imports/home";
+
+
+body {
+	
+  font-family:"Roboto Condensed";
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 180px 15px;
+  text-align: center;
+  overflow-:hidden;
+}
+
+
+
+
+#about {
+	background-color:$about-bg-color;
+
+}
+
+
+
+#work {
+	background-color:$work-bg-color;
+
+}
+
+
+
+#skills {
+	background-color:$skills-bg-color;
+}
+
+.skills-bg-color{
+	background-color:$skills-bg-color;
+}
+
+#contact {
+	background-color:$contact-bg-color;
+
+}
+
+.header{
+	
+	font-size:40px;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+
+.container-fluid{
+	padding-left:0;
+	padding-right:0;
+}
+
+
+.active-link{
+	color:red!important;
+}
+
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+
