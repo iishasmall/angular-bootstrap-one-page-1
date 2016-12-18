@@ -10,28 +10,30 @@ workSection.component('workSection',{
 
 		var self = this;
 		self.modalImg;
-		 $scope.thumbnnailBtn = function (thumb){
-		 	console.log(thumb+" - this is my thumb");
-					//$('.modal-body').empty();
-		  	var title = $(this).parent('a').attr("title");
-		  	$('.modal-title').html(title);
+		self.modalTitle;
+
+		$http.get('data/gallery.json').then(function (response) {
+                          self.images = response.data;
+
+                         
+         });
+		
+		 $scope.thumbnnailBtn = function (thumb,title){
+		 	
+			self.modalTitle = title;	
+		
+		  	$('.modal-title').html(self.modalTitle);
 		  	$($(this).parents('div').html()).appendTo('.modal-body');
 		  	$('#myModal').modal({show:true});
 
 		  	self.modalImg = thumb;
+		  	
+
+
 
 		}
 
-/*
-		$(document).ready(function() {
-$('.thumbnail').click(function(){
-      $('.modal-body').empty();
-  	var title = $(this).parent('a').attr("title");
-  	$('.modal-title').html(title);
-  	$($(this).parents('div').html()).appendTo('.modal-body');
-  	$('#myModal').modal({show:true});
-});
-});*/
+
 
 	}
 

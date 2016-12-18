@@ -4,32 +4,25 @@
          <div class="" id="work-element">
          <!-- <div class="animation-element slide-right" id="work-element"> -->
         <h1 class="header">Work</h1>
-
-          <div class="col-lg-3 col-sm-4 col-xs-6"><!-- <a title="Image 1" > --><img class="thumbnail img-responsive" ng-src="//placehold.it/600x350" ng-click="thumbnnailBtn('//placehold.it/600x350')"><!-- </a> --></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2"  ng-click="thumbnnailBtn('//placehold.it/600x350/2255EE')""><img class="thumbnail img-responsive" src="//placehold.it/600x350/2255EE"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3" ng-click="thumbnnailBtn('//placehold.it/600x350/449955/FFF')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/449955/FFF"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4" ng-click="thumbnnailBtn('//placehold.it/600x350/992233')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/992233"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" ng-click="thumbnnailBtn('//placehold.it/600x350/2255EE')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/2255EE"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6" ng-click="thumbnnailBtn('//placehold.it/600x350/449955/FFF')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/449955/FFF"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 8" ng-click="thumbnnailBtn('//placehold.it/600x350/777')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/777"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 9" ng-click="thumbnnailBtn('//placehold.it/600x350/992233')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/992233"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" ng-click="thumbnnailBtn('//placehold.it/600x350/EEE')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/EEE"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 11" ng-click="thumbnnailBtn('//placehold.it/600x350/449955/FFF')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/449955/FFF"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" ng-click="thumbnnailBtn('//placehold.it/600x350/DDD')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/DDD"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" ng-click="thumbnnailBtn('//placehold.it/600x350/992233')"><img class="thumbnail img-responsive" src="//placehold.it/600x350/992233"></a></div>
-
+        <ul class="portfolio-padding">
+        <li ng-repeat="image in $ctrl.images" class="col-lg-3 col-sm-4 col-xs-6">
+          
+       <img class="thumbnail img-responsive" ng-src="{{image.src}}" ng-click="thumbnnailBtn(image.src,image.title)">
+        </li>
+        </ul>
+       
 
       <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog">
   <div class="modal-content">
     <div class="modal-header">
     <button class="close" type="button" data-dismiss="modal">×</button>
-    <h3 class="modal-title">Heading</h3>
+    <h3 class="modal-title">{{$ctrl.modalTitle}}</h3>
   </div>
-  <div class="modal-body" style="background:red">
+  <div class="modal-body">
 
     <img class="thumbnail img-responsive" ng-src="{{$ctrl.modalImg}}">
-    }
+    
   </div>
   <div class="modal-footer">
     <button class="btn btn-default" data-dismiss="modal">Close</button>
