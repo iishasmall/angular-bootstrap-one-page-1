@@ -13,7 +13,7 @@ angular.element(document).ready(function() {
             angular.bootstrap(workSectionDiv,['workSection'])
             angular.bootstrap(contactSectionDiv,['contactSection'])
             angular.bootstrap(skillsSectionDiv,['skillsSection'])
-		angular.bootstrap(aboutSectionDiv,['aboutSection'])
+		        angular.bootstrap(aboutSectionDiv,['aboutSection'])
             angular.bootstrap(homeSectionDiv,['homeSection'])
             angular.bootstrap(navigationDiv,['navSection'])
  });

@@ -1,7 +1,10 @@
 @import "imports/variables";
 @import "imports/bootstrap";
 @import "imports/animations";
-@import "imports/home";
+@import "imports/home-styles";
+@import "imports/work-styles";
+@import "imports/navigation";
+
 
 
 body {
@@ -11,38 +14,41 @@ body {
 }
 
 .starter-template {
-  padding: 180px 15px;
+  padding: 100px 15px;
   text-align: center;
   overflow-:hidden;
 }
 
 
-
+p{
+	text-align:left;
+}
 
 #about {
-	background-color:$about-bg-color;
+
+	
 
 }
 
 
 
 #work {
-	background-color:$work-bg-color;
+	
 
 }
 
 
 
 #skills {
-	background-color:$skills-bg-color;
+	
 }
 
 .skills-bg-color{
-	background-color:$skills-bg-color;
+	
 }
 
 #contact {
-	background-color:$contact-bg-color;
+	
 
 }
 

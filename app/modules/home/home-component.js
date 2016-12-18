@@ -9,23 +9,14 @@ homeSection.component('homeSection',{
 
 		var self = this;
 
-		$scope.toTheTop = function() {
-      $document.scrollTopAnimated(0, 5000).then(function() {
-        console && console.log('You just scrolled to the top!');
-      });
-    }
-
-     var container = angular.element(document.getElementById('home-section'));
-    container.on('scroll', function() {
-      console.log('Container scrolled to ', container.scrollLeft(), container.scrollTop());
-    });
+	
 
 
 	}
 
 
 
-}).value('duScrollOffset', 30);
+})/*.value('duScrollOffset', 30);*/
 
 /*angular.module('myApp', ['duScroll']).
   controller('MyCtrl', function($scope, $document){

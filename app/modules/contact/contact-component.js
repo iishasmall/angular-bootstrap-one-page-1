@@ -12,7 +12,7 @@ contactSection.component('contactSection',{
 
 
 				 $scope.toTheTop = function() {
-		      $document.scrollTopAnimated(0, 2000).then(function() {
+		      $document.scrollTopAnimated(0, 5000).then(function() {
 		        console && console.log('You just scrolled to the top!');
 		      });
     	}
@@ -21,4 +21,4 @@ contactSection.component('contactSection',{
 
 
 
-}).value('duScrollOffset', 30);
+}).value('duScrollOffset',60);

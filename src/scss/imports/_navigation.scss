@@ -1,0 +1,33 @@
+// use this area for styling the navigation bar
+
+
+
+
+
+
+
+// nav bar section highlight and active button color
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{
+	color:$nav-text-color;
+    background-color: green;
+}
+
+
+// nav bar background color and border
+.navbar-inverse {
+    background-color: #222;
+    border-color: #090909;
+}
+
+
+#navbar ul li > a{
+	font-weight:700;
+	
+}
+
+.navbar-inverse .navbar-nav>li>a, 
+.navbar-inverse .navbar-text{
+	color:$nav-text-color;
+}
