@@ -1,0 +1,43 @@
+//use this to style the contact section
+.contact-btn{
+	background-color:blue;
+	width:90px;
+	height:90px;
+	-webkit-border-radius: 0px 0px 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	cursor:pointer;
+
+	 -webkit-transition: border-radius 3s; /* Safari */
+    -webkit-transition-delay: 1s; /* Safari */
+}
+
+.contact-btn:hover,.contact-btn:focus{
+	
+	animation: shapes .5s 1;
+	-moz-border-radius-topright: 90px;
+	-webkit-border-top-right-radius: 90px;
+	border-top-right-radius: 90px;
+	-moz-border-radius-bottomright: 90px;
+	-webkit-border-bottom-right-radius: 90px;
+	border-bottom-right-radius: 90px;
+	-moz-border-radius-bottomleft: 90px;
+	-webkit-border-bottom-left-radius: 90px;
+	border-bottom-left-radius: 90px;
+	
+}
+
+
+@keyframes shapes{
+	
+	0%{
+		background-color:blue;
+	}
+
+	100%{
+		background-color:red;
+	}
+}
+
+
+
