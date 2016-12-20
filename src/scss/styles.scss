@@ -9,6 +9,7 @@ $icon-font-path: '../fonts/';
 @import "imports/bootstrap";
 @import "imports/animations";
 @import "imports/home-styles";
+@import "imports/about-styles";
 @import "imports/work-styles";
 @import "imports/contact-styles";
 @import "imports/skills-styles";
@@ -64,7 +65,7 @@ p{
 .header{
 	
 	font-size:40px;
-	font-weight:700;
+	font-weight:400;
 	text-transform:uppercase;
 	
 	@include text-header-style(white);

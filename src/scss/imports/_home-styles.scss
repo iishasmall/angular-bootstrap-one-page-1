@@ -14,4 +14,16 @@
 
 
 
+.header-home{
+	font-weight:300;
+	font-size: 50px;
+	color:#fff;
+}
 
+.drop-shadow-bottom{
+	
+-webkit-box-shadow: inset -6px -19px 55px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -6px -19px 55px 8px rgba(0,0,0,0.75);
+box-shadow: inset -6px -19px 55px 8px rgba(0,0,0,0.75);
+
+}

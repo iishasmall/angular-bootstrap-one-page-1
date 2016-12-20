@@ -1,4 +1,4 @@
-
+//styling for the skills section
 
 .skill-content-area{
 	
@@ -13,3 +13,30 @@
 .skills-content{
 	text-align:center;
 }
+
+
+.icon-bg{
+	display:inline-block;
+	width: 100px;
+	height: 100px;
+	background: #bfa5a5;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.icon-shadow{
+	
+	-webkit-box-shadow: 5px 0px 29px -1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 5px 0px 29px -1px rgba(0,0,0,0.25);
+	box-shadow: 5px 0px 29px -1px rgba(0,0,0,0.25);
+}
+
+.helper-class{
+	
+	display:inline-block; 
+	vertical-align:middle; 
+	height:90%;
+}
+
+
