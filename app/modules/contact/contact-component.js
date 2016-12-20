@@ -3,7 +3,7 @@ var contactSection = angular.module('contactSection',['duScroll']);
 
 
 contactSection.component('contactSection',{
-	"use strict";
+	
 
 	templateUrl:`modules/contact/contact.template.html`,
 	controller: function contactController($http,$scope,$document){
