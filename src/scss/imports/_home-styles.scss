@@ -8,17 +8,17 @@
 
 .home-section-padding{
 	 padding: 0px 0px;
-  	text-align: center;
-  overflow-:hidden;
+  	 text-align: center;
+  	 overflow-:hidden;
 }
 
 
 
 .header-home{
 	font-weight:300;
-	font-size: 30px;
+	font-size: 25px;
 	color:#fff;
-
+	text-transform:uppercase;
 	@media (min-width:768px){
 
 		font-size: 50px;
@@ -40,7 +40,7 @@ box-shadow: inset -6px -19px 55px 8px rgba(0,0,0,0.75);
 .home-header-section{
 	position: absolute;
 
-	left:50px;
+	left:0px;
 	z-index:100;
 
 
@@ -50,7 +50,7 @@ box-shadow: inset -6px -19px 55px 8px rgba(0,0,0,0.75);
 
 		left:0px;
 		top:150px; 
-	
+		
 	
 	}
 
@@ -60,7 +60,7 @@ box-shadow: inset -6px -19px 55px 8px rgba(0,0,0,0.75);
 
 		left:100px;
 		top:0px; 
-	
+		
 	
 	}
 
