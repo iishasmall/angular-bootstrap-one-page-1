@@ -3,7 +3,7 @@ var workSection = angular.module('workSection',['duScroll']);
 
 
 workSection.component('workSection',{
-
+	"use strict";
 
 	templateUrl:`modules/work/work.template.html`,
 	controller: function workSectionController($http,$scope){

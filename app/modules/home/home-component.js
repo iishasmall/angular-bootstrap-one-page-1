@@ -3,7 +3,7 @@ var homeSection = angular.module('homeSection',['duScroll'])
 
 homeSection.component('homeSection',{
 
-
+  "use strict";
 	templateUrl:`modules/home/home.template.html`,
 	controller: function homeSectionController($http,$scope,$document){
 
