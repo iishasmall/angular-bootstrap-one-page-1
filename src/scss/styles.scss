@@ -14,77 +14,30 @@ $icon-font-path: '../fonts/';
 @import "imports/contact-styles";
 @import "imports/skills-styles";
 @import "imports/navigation";
+@import "imports/basics.scss";
 
 
+//Contents
 
-body {
-	
-  font-family:"Roboto Condensed";
-  padding-top: 50px;
-}
-
-.starter-template {
-  padding: 100px 15px;
-  text-align: center;
-  overflow-:hidden;
-}
+// basics.scss - has styling for the main content and headers of the site
 
 
-p{
-	text-align:left;
-}
-
-#about {
-
-	
-
-}
+// variables.scss - has basic colors for fonts
 
 
-
-#work {
-	
-
-}
+// mixins.scss - has stylings used all over the site 
 
 
-
-#skills {
-	
-}
-
-.skills-bg-color{
-	
-}
-
-#contact {
-	
-
-}
-
-.header{
-	
-	font-size:40px;
-	font-weight:400;
-	text-transform:uppercase;
-	
-	@include text-header-style(white);
-
-}
+// contact-styles.scss - has styles for the content section 
 
 
-.container-fluid{
-	padding-left:0;
-	padding-right:0;
-}
+// about-styles.scss - has styles for the about section 
 
 
-.active-link{
-	color:red!important;
-}
+// home-styles.scss - has styles for the home section 
 
-.row{
-	margin-left:0px;
-	margin-right:0px;
-}
 
+// skills-styles.scss - has styles for the skills section
+ 
+
+// navigation.scss - has styles for the navigation section 

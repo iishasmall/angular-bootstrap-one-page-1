@@ -19,7 +19,7 @@
 	display:inline-block;
 	width: 100px;
 	height: 100px;
-	background: #bfa5a5;
+	background: $icon-bg-circle-color;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -32,7 +32,7 @@
 	box-shadow: 5px 0px 29px -1px rgba(0,0,0,0.25);
 }
 
-.helper-class{
+.skills-helper-class{
 	
 	display:inline-block; 
 	vertical-align:middle; 

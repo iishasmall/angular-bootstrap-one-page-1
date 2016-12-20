@@ -22,7 +22,25 @@
     
 }
 
+// nav bar collapsed border color 
+.navbar-inverse .navbar-collapse, 
+.navbar-inverse .navbar-form{
+	
+	border-color: #ccc;
+}
 
+.navbar-inverse {
+    border-color: #ccc;
+}
+
+// logo area text color
+.navbar-brand{
+	
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+// nav bar li text 
 #navbar ul li > a{
 	font-weight:300;
 	font-size:18px;
@@ -52,4 +70,16 @@
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
 	
 	background-color:transparent;
+}
+
+
+@media (min-width: 768px) {
+	
+	.navbar-nav {
+    float: right;
+    margin: 0;
+   
+	}
+
+
 }

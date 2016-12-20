@@ -1,6 +1,6 @@
 //use this to style the contact section
 .contact-btn{
-	background-color:blue;
+	background-color:$icon-bg-circle-color;
 	width:90px;
 	height:90px;
 	-webkit-border-radius: 0px 0px 90px;
@@ -14,17 +14,14 @@
 
 .contact-btn:hover,.contact-btn:focus{
 	
-	animation: shapes .5s 1;
-	-moz-border-radius-topright: 90px;
-	-webkit-border-top-right-radius: 90px;
-	border-top-right-radius: 90px;
-	-moz-border-radius-bottomright: 90px;
-	-webkit-border-bottom-right-radius: 90px;
-	border-bottom-right-radius: 90px;
-	-moz-border-radius-bottomleft: 90px;
-	-webkit-border-bottom-left-radius: 90px;
-	border-bottom-left-radius: 90px;
 	
+	
+}
+
+.contact-subhead{
+	
+	font-size:16px;
+	padding-bottom:10px;
 }
 
 
@@ -39,5 +36,44 @@
 	}
 }
 
+.arrow-icon{
+	width:50px;
+	height:50px;
+}
+
+
+.contact-icons{
+	
+	width:50px;
+	height:50px;
+}
+
+.contact-icon-header{
+	font-size:18px;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+.contact-icon-content{
+	font-size:14px;
+	font-weight:400;
+	text-align:center;
+}
+
+
+.contact-helper-class{
+	
+	display:inline-block; 
+	vertical-align:middle; 
+	height:90%;
+}
+
+
+.contact-icon-shadow{
+	
+	-webkit-box-shadow: 5px 0px 29px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 0px 29px -5px rgba(0,0,0,0.75);
+	box-shadow: 5px 0px 29px -5px rgba(0,0,0,0.75);
+}
 
 
