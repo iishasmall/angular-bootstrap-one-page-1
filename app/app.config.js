@@ -1,11 +1,13 @@
 
-
+ 
 
 angular.element(document).ready(function() {
-              
+
+
+             
             var homeSectionDiv = document.getElementById('home-section');
             var aboutSectionDiv = document.getElementById('about-section');
-            var navigationDiv = document.getElementById('nav-section');
+            var navigationDiv = document.getElementById('nav');
             var contactSectionDiv = document.getElementById('contact-section');
             var skillsSectionDiv = document.getElementById('skills-section');
             var workSectionDiv = document.getElementById('work-section');
@@ -15,7 +17,7 @@ angular.element(document).ready(function() {
             angular.bootstrap(skillsSectionDiv,['skillsSection'])
 		        angular.bootstrap(aboutSectionDiv,['aboutSection'])
             angular.bootstrap(homeSectionDiv,['homeSection'])
-            angular.bootstrap(navigationDiv,['navSection'])
+            angular.bootstrap(navigationDiv,["navSection"])
  });
 
 

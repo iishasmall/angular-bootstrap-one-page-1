@@ -5,7 +5,7 @@ var contactSection = angular.module('contactSection',['duScroll']);
 contactSection.component('contactSection',{
 	
 
-	templateUrl:`modules/contact/contact.template.html`,
+	templateUrl:'modules/contact/contact.template.html',
 	controller: function contactController($http,$scope,$document){
 
 		var self = this;
